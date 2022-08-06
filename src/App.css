@@ -10,3 +10,8 @@
   overflow: hidden;
   padding: 20px;
 }
+
+.app-wrapper-content {
+  grid-area: content;
+  background-color: rgb(1, 79, 82);
+}

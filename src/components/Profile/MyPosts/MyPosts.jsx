@@ -16,7 +16,7 @@ const MyPosts = () => {
         </div>
         <div className={c.newpostcontainer}>
           <ul className={c.list}>
-           <Post message='Hi, how are you' count='11'/>
+           <Post message='Hi, how are you' count='15'/>
            <Post message='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, debitis explicabo accusantium aperiam officia tenetur obcaecati laboriosam voluptate, maxime neque corporis asperiores, quaerat amet? Delectus autem quaerat eum corrupti itaque!' count='20'/>
           </ul>
         </div>
