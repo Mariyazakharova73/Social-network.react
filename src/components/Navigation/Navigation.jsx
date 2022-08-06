@@ -1,34 +1,34 @@
 import React from 'react';
 import c from '../../blocks/navigation.module.css';
+import {NavLink} from "react-router-dom";
 
 const Navigation = () => {
   return (
     <nav className={c.navigation}>
       <ul className={c.list}>
-        <li className={c.item}>
-          <a className={c.link} href="#">
-            Profile
-          </a>
+        <li className={c.item}><NavLink activeClassName={c.active} className={c.link} to="/profile">
+          Profile
+        </NavLink>
         </li>
         <li className={c.item}>
-          <a className={c.link} href="#">
+          <NavLink activeClassName={c.active} className={c.link} to="/dialogs">
             Messages
-          </a>
+          </NavLink>
         </li>
         <li className={c.item}>
-          <a className={c.link} href="#">
+          <NavLink className={c.link} to="/news">
             News
-          </a>
+          </NavLink>
         </li>
         <li className={c.item}>
-          <a className={c.link} href="#">
+          <NavLink className={c.link} to="/music">
             Music
-          </a>
+          </NavLink>
         </li>
         <li className={c.item}>
-          <a className={c.link} href="#">
+          <NavLink className={c.link} to="/settings">
             Settings
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>
