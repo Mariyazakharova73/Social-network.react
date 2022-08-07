@@ -1,7 +1,7 @@
 import React from "react";
-import c from '../../blocks/news.module.css.';
+// import c from '../../blocks/news.module.css.';
 
-const News = (props) => {
+const News = () => {
   return (<div>news</div>)
 }
 

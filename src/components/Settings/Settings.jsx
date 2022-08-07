@@ -1,8 +1,8 @@
 import React from "react";
-import c from '../../blocks/settings.module.css.';
+// import c from '../../blocks/settings.module.css.';
 
-const Settings = (props) => {
-  return (<div>dialogs</div>)
+const Settings = () => {
+  return (<div>settings</div>)
 }
 
 export default Settings;

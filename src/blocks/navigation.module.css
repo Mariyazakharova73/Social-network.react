@@ -23,8 +23,12 @@
   font-size: 20px;
 }
 
-.active {
-  color: black;
+ .active {
+  color: gainsboro;
+  font-size: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
 }
 
 
@@ -42,7 +46,6 @@
   transition: width 0.5s;
   /* Время эффекта */
 }
-
 
 .link:hover:after {
   content: "";

@@ -1,4 +1,20 @@
-.profile {
-  grid-area: content;
-  background-color: rgb(1, 79, 82);
+.dialogs {
+  display: flex;
+}
+
+.dialogs-items {
+  color: white;
+  list-style-type: none;
+}
+
+.item {
+
+}
+
+.messages {
+
+}
+
+.message {
+  
 }

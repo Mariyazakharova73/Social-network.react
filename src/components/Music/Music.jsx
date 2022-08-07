@@ -1,8 +1,8 @@
 import React from "react";
-import c from '../../blocks/music.module.css.';
+// import c from '../../blocks/music.module.css.';
 
-const Music = (props) => {
-  return (<div></div>)
+const Music = () => {
+  return (<div>music</div>)
 }
 
 export default Music;
