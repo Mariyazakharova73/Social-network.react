@@ -1,5 +1,5 @@
 import React from 'react';
-import c from '../../blocks/header.module.css'
+import c from './header.module.css'
 
 const Header = () => {
   return (

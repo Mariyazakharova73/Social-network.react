@@ -1,5 +1,5 @@
 import React from 'react';
-import c from '../../blocks/navigation.module.css';
+import c from './navigation.module.css';
 
 import {NavLink} from "react-router-dom";
 
