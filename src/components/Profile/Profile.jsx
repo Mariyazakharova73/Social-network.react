@@ -2,7 +2,7 @@ import React from 'react';
 import c from './profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <div>
       <div className={c.wrapper}>
@@ -17,7 +17,7 @@ const Profile = () => {
           <p className={c.paragraph}>Образование: УлГТУ</p>
         </div>
       </div>
-      <MyPosts />
+      <MyPosts  posts={props.posts} />
     </div>
   );
 };
