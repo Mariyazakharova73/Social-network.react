@@ -17,7 +17,7 @@ const Profile = (props) => {
           <p className={c.paragraph}>Образование: УлГТУ</p>
         </div>
       </div>
-      <MyPosts  posts={props.posts} />
+      <MyPosts  posts={props.posts} addPost={props.addPost}/>
     </div>
   );
 };
