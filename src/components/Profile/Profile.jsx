@@ -2,6 +2,8 @@ import React from 'react';
 import c from './profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
 
+
+//{posts: Array(2), addPost: ƒ}
 const Profile = (props) => {
   return (
     <div>

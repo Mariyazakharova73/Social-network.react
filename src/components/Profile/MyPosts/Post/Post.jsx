@@ -1,6 +1,11 @@
 import React from 'react';
 import c from './post.module.css';
 
+
+//console.log(props)
+//{message: 'Hi, how are you', count: '15'}
+//{message: 'Lorem ipsum dolor sit, amet consectetur adipisicin…amet? Delectus autem quaerat eum corrupti itaque!', count: '20'}
+
 const Post = (props) => {
   return (
     <li className={c.item}>

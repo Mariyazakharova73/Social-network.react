@@ -2,6 +2,8 @@
   padding: 20px 0px 0px 30px;
   grid-area: navigation;
   background-color: rgb(43, 58, 20);
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 .list {

@@ -2,6 +2,8 @@
   padding: 10px 30px;
   grid-area: header;
   background-color: gray;
+  border: 1px solid white;
+  border-radius: 10px;
   }
   
   .image {

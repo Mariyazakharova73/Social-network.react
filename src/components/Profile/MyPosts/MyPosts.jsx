@@ -2,9 +2,12 @@ import React from 'react';
 import c from './myposts.module.css';
 import Post from './Post/Post';
 
+//console.log(props)
+//{posts: Array(2), addPost: ƒ}
+//
+
 const MyPosts = (props) => {
   let postsElements = props.posts.map((el) => <Post message={el.message} count={el.count} />);
-
   let newPostElement = React.createRef();
 
   let addPost = () => {

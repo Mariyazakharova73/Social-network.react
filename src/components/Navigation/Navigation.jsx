@@ -1,8 +1,8 @@
 import React from 'react';
 import c from './navigation.module.css';
-
 import {NavLink} from "react-router-dom";
 
+//NavLink вместо a, to вместо href
 const Navigation = () => {
   return (
     <nav className={c.navigation}>
