@@ -9,7 +9,7 @@ import Settings from './components/Settings/Settings';
 import News from './components/News/News';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-//{state: {…}, addPost: ƒ}
+//{state: {…}, addPost: ƒ updatenewPostText}
 const App = (props) => {
   return (
     <BrowserRouter>
@@ -23,7 +23,7 @@ const App = (props) => {
             <Route path="/dialogs/*" element={<Dialogs messages={props.state.dialogsPage.messages} dialogs={props.state.dialogsPage.dialogs} />} />
 
 
-            
+
             <Route path="/news" element={<News />} />
             <Route path="/music" element={<Music />} />
             <Route path="/settings" element={<Settings />} />
