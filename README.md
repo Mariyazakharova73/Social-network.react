@@ -11,4 +11,4 @@
 
 **Cсылка на страницу проекта**
 
-* [Ссылка: "Социальня сеть"]() 
+* [Ссылка: "Социальня сеть"](https://mariyazakharova73.github.io/Social-network.react/) 
