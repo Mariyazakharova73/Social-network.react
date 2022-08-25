@@ -7,13 +7,16 @@ import Post from './Post/Post';
 //
 
 const MyPosts = (props) => {
-  let postsElements = props.posts.map((el) => <Post message={el.message} count={el.count} />);
+  let postsElements = props.posts.map((el, index) => <Post message={el.message} count={el.count} key={index} />);
   let newPostElement = React.createRef();
 
   let addPost = () => {
+    props.addPost();
+  };
+
+  let onPostChange = () => {
     let text = newPostElement.current.value;
-    props.addPost(text);
-    newPostElement.current.value = '';
+    props.updatenewPostText(text);
   };
 
   return (
@@ -21,8 +24,9 @@ const MyPosts = (props) => {
       <div className={c.post}>
         <h2 className={c.title}>My Posts</h2>
         <form className={c.form}>
-          <textarea ref={newPostElement} className={c.text} type="text" placeholder="Your news"></textarea>
-          <button onClick={addPost} className={c.button} type="submit">
+          <textarea ref={newPostElement} className={c.text} type="text" placeholder="Your news" value={props.newPostText} onChange={onPostChange} />
+
+          <button onClick={addPost} className={c.button} type="button">
             Send
           </button>
         </form>

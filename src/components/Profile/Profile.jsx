@@ -2,7 +2,6 @@ import React from 'react';
 import c from './profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
 
-
 //{posts: Array(2), addPost: ƒ}
 const Profile = (props) => {
   return (
@@ -19,7 +18,7 @@ const Profile = (props) => {
           <p className={c.paragraph}>Образование: УлГТУ</p>
         </div>
       </div>
-      <MyPosts  posts={props.posts} addPost={props.addPost}/>
+      <MyPosts posts={props.profilePage.posts} newPostText={props.profilePage.newPostText} addPost={props.addPost} updatenewPostText={props.updatenewPostText} />
     </div>
   );
 };
