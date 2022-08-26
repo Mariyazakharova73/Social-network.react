@@ -18,7 +18,7 @@ const Profile = (props) => {
           <p className={c.paragraph}>Образование: УлГТУ</p>
         </div>
       </div>
-      <MyPosts posts={props.profilePage.posts} newPostText={props.profilePage.newPostText} addPost={props.addPost} updatenewPostText={props.updatenewPostText} />
+      <MyPosts posts={props.profilePage.posts} newPostText={props.profilePage.newPostText} dispatch={props.dispatch} />
     </div>
   );
 };
