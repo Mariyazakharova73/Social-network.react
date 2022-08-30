@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import c from './../dialogs.module.css';
+import style from './../dialogs.module.css';
 
 //console.log(props)
 //{name: 'Mariya', id: 1}
@@ -12,8 +12,8 @@ import c from './../dialogs.module.css';
 
 const DialogItem = (props) => {
   return (
-    <li className={c.item}>
-      <NavLink className={c.link} to={'/dialogs/' + props.id}>
+    <li className={style.item}>
+      <NavLink className={style.link} to={'/dialogs/' + props.id}>
         {props.name}
       </NavLink>
     </li>

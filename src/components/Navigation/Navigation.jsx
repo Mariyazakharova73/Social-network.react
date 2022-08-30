@@ -1,33 +1,33 @@
 import React from 'react';
-import c from './navigation.module.css';
+import style from './navigation.module.css';
 import {NavLink} from "react-router-dom";
 
 //NavLink вместо a, to вместо href
 const Navigation = () => {
   return (
-    <nav className={c.navigation}>
-      <ul className={c.list}>
-        <li className={c.item}><NavLink className = { navData => navData.isActive ? c.active : c.link } to="/profile">
+    <nav className={style.navigation}>
+      <ul className={style.list}>
+        <li className={style.item}><NavLink className = { navData => navData.isActive ? style.active : style.link } to="/profile">
           Profile
         </NavLink>
         </li>
-        <li className={c.item}>
-          <NavLink className = { navData => navData.isActive ? c.active : c.link } to="/dialogs">
+        <li className={style.item}>
+          <NavLink className = { navData => navData.isActive ? style.active : style.link } to="/dialogs">
             Dialogs
           </NavLink>
         </li>
-        <li className={c.item}>
-          <NavLink className = { navData => navData.isActive ? c.active : c.link } to="/news">
+        <li className={style.item}>
+          <NavLink className = { navData => navData.isActive ? style.active : style.link } to="/news">
             News
           </NavLink>
         </li>
-        <li className={c.item}>
-          <NavLink className = { navData => navData.isActive ? c.active : c.link } to="/music">
+        <li className={style.item}>
+          <NavLink className = { navData => navData.isActive ? style.active : style.link } to="/music">
             Music
           </NavLink>
         </li>
-        <li className={c.item}>
-          <NavLink className = { navData => navData.isActive ? c.active : c.link } to="/settings">
+        <li className={style.item}>
+          <NavLink className = { navData => navData.isActive ? style.active : style.link } to="/settings">
             Settings
           </NavLink>
         </li>

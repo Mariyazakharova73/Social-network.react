@@ -1,5 +1,5 @@
 import React from "react";
-// import c from '../../blocks/news.module.css.';
+// import style from '../../blocks/news.module.css.';
 
 const News = () => {
   return (<div>news</div>)

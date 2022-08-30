@@ -1,5 +1,5 @@
 import React from 'react';
-import c from './myposts.module.css';
+import style from './myposts.module.css';
 import Post from './Post/Post';
 import {addPostActionCreater, updateNewPostTextActionCreater} from '../../../redux/state.js'
 //console.log(props)
@@ -20,19 +20,19 @@ const MyPosts = (props) => {
   };
 
   return (
-    <div className={c.posts}>
-      <div className={c.post}>
-        <h2 className={c.title}>My Posts</h2>
-        <form className={c.form}>
-          <textarea ref={newPostElement} className={c.text} type="text" placeholder="Your news" value={props.newPostText} onChange={onPostChange} />
+    <div className={style.posts}>
+      <div className={style.post}>
+        <h2 className={style.title}>My Posts</h2>
+        <form className={style.form}>
+          <textarea ref={newPostElement} className={style.text} type="text" placeholder="Your news" value={props.newPostText} onChange={onPostChange} />
 
-          <button onClick={addPost} className={c.button} type="button">
+          <button onClick={addPost} className={style.button} type="button">
             Send
           </button>
         </form>
       </div>
-      <div className={c.newpostcontainer}>
-        <ul className={c.list}>{postsElements}</ul>
+      <div className={style.newpostcontainer}>
+        <ul className={style.list}>{postsElements}</ul>
       </div>
     </div>
   );
