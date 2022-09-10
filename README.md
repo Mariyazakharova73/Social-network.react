@@ -28,6 +28,7 @@
 
 npm install <br/>
 npm start <br/>
+Работа с gh-pages:<br/>
 npm run deploy <br/>
 
 **Cсылка на страницу проекта**
