@@ -26,10 +26,9 @@
 
 **Начало работы**
 
-npm install <br/>
-npm start <br/>
-Работа с gh-pages:<br/>
-npm run deploy <br/>
+npm install - устанавливает необходимые пакеты<br/>
+npm start - запускает проект<br/>
+npm run deploy - обновляет проект на gh-pages<br/>
 
 **Cсылка на страницу проекта**
 
